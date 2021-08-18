@@ -1,7 +1,7 @@
 {
   "project" : {
-    "id" : "1lapshin_code-263-fbz",
-    "name" : "1lapshin_code-263-fbz",
+    "id" : "test_external-30648-KuP",
+    "name" : "test_external-30648-KuP",
     "folder" : "/jaicp"
   },
   "settings" : {
@@ -12,7 +12,7 @@
     "shared" : false
   },
   "intents" : [ {
-    "id" : 502,
+    "id" : 208581,
     "path" : "/пока",
     "enabled" : true,
     "shared" : false,
@@ -20,7 +20,7 @@
       "text" : "пока"
     } ]
   }, {
-    "id" : 503,
+    "id" : 208582,
     "path" : "/привет",
     "enabled" : true,
     "shared" : false,
