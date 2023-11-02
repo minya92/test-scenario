@@ -1,4 +1,4 @@
-name: brain
+name: echo-template
 
 entryPoint:
   - main.sc
@@ -15,10 +15,15 @@ scriptsPreLoad:
     - /jslib/moment.min.js
     - /jslib/underscore.js
     - /jsapi/common.js
-    - /jsapi/http.js
+    - /jsapi/smartPush.js
+    - /jsapi/smartProfile.js
+    - /jsapi/smartRating.js
+    - /jsapi/jivo.js
   local:
     - /jsapi/mail.js
     - /jsapi/reactions.js
+    - /jsapi/http.js
+    - /jsapi/fetch.js
 
 tests:
   include:

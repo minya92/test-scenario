@@ -1,33 +1,26 @@
 {
-  "project" : {
-    "id" : "test_external-30648-KuP",
-    "name" : "test_external-30648-KuP",
-    "folder" : "/jaicp"
+  "project": {
+    "id": "echo",
+    "name": "echo",
+    "folder": "/"
   },
-  "settings" : {
-    "language" : "ru",
-    "spellingCorrection" : false,
-    "classificationAlgorithm" : "sts",
-    "timezone" : "UTC",
-    "shared" : false
+  "settings": {
+    "language": "ru",
+    "spellingCorrection": false,
+    "classificationAlgorithm": "sts",
+    "timezone": "Europe/Moscow",
+    "extendedSettings": {
+      "tokenizerEngine": "default"
+    }
   },
-  "intents" : [ {
-    "id" : 208581,
-    "path" : "/пока",
-    "enabled" : true,
-    "shared" : false,
-    "phrases" : [ {
-      "text" : "пока"
-    } ]
-  }, {
-    "id" : 208582,
-    "path" : "/привет",
-    "enabled" : true,
-    "shared" : false,
-    "phrases" : [ {
-      "text" : "привет"
-    } ]
-  } ],
-  "entities" : [ ],
-  "enabledSystemEntities" : [ "duckling.number", "duckling.time", "duckling.duration", "duckling.phone-number", "duckling.email", "duckling.url" ]
+  "intents": [],
+  "entities": [],
+  "enabledSystemEntities": [
+    "duckling.number",
+    "duckling.time",
+    "duckling.duration",
+    "duckling.phone-number",
+    "duckling.email",
+    "duckling.url"
+  ]
 }
